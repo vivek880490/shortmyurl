@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //MONGO_URI 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/url';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://vivek88:user@cluster0.q1r8u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 //Connect to DB function
 const connect = () => {
